@@ -1,4 +1,4 @@
-package com.syuan.hw01;
+package hw01;
 
 public class Electricity {
 	static int tatalUsePowr = 1500; //總用電量

@@ -1,4 +1,4 @@
-package com.syuan.hw01;
+package hw01;
 
 import java.util.Scanner;
 

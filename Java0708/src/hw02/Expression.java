@@ -1,4 +1,4 @@
-package com.syuan.hw02;
+package hw02;
 
 public class Expression {
 
