@@ -1,9 +1,7 @@
 package hw01;
-
 import java.util.Scanner;
-
 public class Equation {
-
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("請輸入a的值(a != 0): ");
@@ -14,10 +12,8 @@ public class Equation {
 	
 		System.out.println("請輸入c的值: ");
 		int c = scanner.nextInt();
-	
 		scanner.close();
-	
-		//int a = 1 , b = -3, c = 2; //輸入任意三值
+		
 		double x1 , x2; //根
 		double y = b*b - 4*a*c; //判斷式
 	
