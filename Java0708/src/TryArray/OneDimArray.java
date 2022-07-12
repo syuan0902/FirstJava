@@ -25,19 +25,34 @@ public class OneDimArray {
 //		System.out.println("y矩陣第五個空間的值是 " + y[4]);
 		
 		//賦值2
-		int[] z = {5, 4, 3, 2, 1};
+//		int[] z = {5, 4, 3, 2, 1};
+//		
+//		//賦值3
+//		z[0] = 9;
+//		z[1] = 8;
+//		z[2] = 7;
+//		z[3] = 6;
+//		z[4] = 5;
+//		
+//		System.out.println("z矩陣第一個空間的值是 " + z[0]); 
+//		System.out.println("z矩陣第二個空間的值是 " + z[1]);
+//		System.out.println("z矩陣第三個空間的值是 " + z[2]);
+//		System.out.println("z矩陣第四個空間的值是 " + z[3]);
+//		System.out.println("z矩陣第五個空間的值是 " + z[4]);
 		
-		//賦值3
-		z[0] = 9;
-		z[1] = 8;
-		z[2] = 7;
-		z[3] = 6;
-		z[4] = 5;
+		//用for迴圈讀出陣列內的資料
+//		int[] arr = {38, 92, 74, 88, 11};
+//		
+//		for (int i = 0 ; i < arr.length; i++) { //i是arr陣列的索引值
+//			System.out.println("arr[" + i + "] = " + arr[i]);
+//		}
 		
-		System.out.println("z矩陣第一個空間的值是 " + z[0]); 
-		System.out.println("z矩陣第二個空間的值是 " + z[1]);
-		System.out.println("z矩陣第三個空間的值是 " + z[2]);
-		System.out.println("z矩陣第四個空間的值是 " + z[3]);
-		System.out.println("z矩陣第五個空間的值是 " + z[4]);
+		//用for-each迴圈讀出陣列內的資料
+		int k = 0;
+		int[] arr = {38, 92, 74, 88, 11};
+		for (int j : arr) { //j是arr陣列的值
+			System.out.println("arr[" + k + "] = " + j);
+			k++;
+		}
 	}	
 }
