@@ -23,7 +23,7 @@ public class OneDimArray {
 //		System.out.println("y矩陣第三個空間的值是 " + y[2]);
 //		System.out.println("y矩陣第四個空間的值是 " + y[3]);
 //		System.out.println("y矩陣第五個空間的值是 " + y[4]);
-		
+//		
 		//賦值2
 //		int[] z = {5, 4, 3, 2, 1};
 //		
