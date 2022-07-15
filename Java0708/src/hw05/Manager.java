@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package hw05;
 
 public class Manager extends PermanentStaffs {
@@ -20,3 +21,10 @@ public class Manager extends PermanentStaffs {
 		System.out.println();
 	}
 }
+=======
+package hw05;
+
+public class Manager {
+
+}
+>>>>>>> branch 'master' of git@github.com:syuan0902/FirstJava.git
